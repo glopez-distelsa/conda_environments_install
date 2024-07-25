@@ -67,6 +67,13 @@ pip install pyodbc
 
 > **WARNING:** Recuerda siempre activar tu entorno antes de trabajar en tu proyecto para asegurarte de que estás utilizando las dependencias correctas.
 
+### 5. Borrar archivo descargado
+
+- Regresamos al directorio donde descargamos el .sh en mi caso fue `cd /Users/glopez`:
+```bash
+sudo rm -r Miniconda3-latest-MacOSX-arm64.sh 
+```
+
 ---
 
 Con esta guía, deberías poder configurar tu entorno Conda de manera efectiva en macOS. Si encuentras algún problema, revisa la [documentación de Anaconda](https://docs.anaconda.com/) para obtener más ayuda.
